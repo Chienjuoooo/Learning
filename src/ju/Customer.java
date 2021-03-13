@@ -1,4 +1,4 @@
-package com.fju;
+package ju;
 
 public class Customer {
     String id;
