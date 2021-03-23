@@ -2,16 +2,17 @@ package ju;
 
 public class Customer {
     String id;
-    int money;
-    int discount;
-    public Customer(String id, int money, int discount){
+    int amount;
+    public Customer(String id, int amount){
         this.id = id;
-        this.money = money;
-        this.discount = discount;
+        this.amount = amount;
     }
     public void print() {
-        System.out.println(id + "\t" + money + "\t" + discount + "\t" +(money-discount));
+        System.out.println(id + "\t" + amount);
 
 
+    }
+    public int getTotal(){
+        return amount;
     }
 }

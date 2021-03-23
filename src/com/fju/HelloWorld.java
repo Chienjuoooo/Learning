@@ -1,5 +1,7 @@
 package com.fju;
 
+import com.stu.Student;
+
 public class HelloWorld {
     public static void main(String[] args) {
 

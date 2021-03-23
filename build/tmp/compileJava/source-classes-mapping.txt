@@ -1,10 +1,16 @@
 com/fju/HelloWorld.java
  com.fju.HelloWorld
+com/stu/GraduateStudent.java
+ com.stu.GraduateStudent
+ju/Customer.java
+ ju.Customer
+com/stu/Student.java
+ com.stu.Student
+com/stu/Tester.java
+ com.stu.Tester
 com/fju/Person.java
  com.fju.Person
-com/fju/Student.java
- com.fju.Student
-com/fju/Customer.java
- com.fju.Customer
-com/fju/Homework.java
- com.fju.Homework
+ju/Tester.java
+ ju.Tester
+ju/SilverCustomer.java
+ ju.SilverCustomer

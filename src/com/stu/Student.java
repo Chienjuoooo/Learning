@@ -1,4 +1,4 @@
-package com.fju;
+package com.stu;
 
 public class Student {
     String id;
@@ -7,6 +7,7 @@ public class Student {
     int math;
 
     public Student(){
+
         super();
     }
     public Student(String id, String name, int english, int math) {
