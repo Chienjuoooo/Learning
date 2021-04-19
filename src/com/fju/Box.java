@@ -9,7 +9,9 @@ public abstract class Box {
         return (a <= length && b <= width && c <= height);
     }
 
-    public abstract String getName();
+    public String getName() {
+        return "Box";
+    }
 
     public abstract int getPrice();
 }
