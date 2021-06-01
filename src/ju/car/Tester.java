@@ -1,26 +1,27 @@
 package ju.car;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-import java.util.concurrent.Callable;
+import java.util.*;
 
-public class Tester {
+/*public class Tester {
     public static void main(String[] args) {
         int fee = 30;
-        List<Car> cars = new ArrayList<>();
-
+        Map<String, Car> cars = new HashMap<>();
         Car c1 = new Car("abc-123", "07:30");
         Car c2 = new Car("def-123", "09:45");
         Car c3 = new Car("ghi-123", "10:30");
-        cars.add(c1);
-        cars.add(c2);
-        cars.add(c3);
-
+        cars.put(c1.id, c1);
+        cars.put(c2.id, c2);
+        cars.put(c3.id, c3);
         String id = "abc-123";
+        Car car = cars.get(id);
+        if (car == null) {
+            System.out.println("Car not found");
+        } else {
+            Date now = new Date();
+            long ms = now.getTime() - car.enter.getTime();
+            long mins = ms / (1000 * 60);
+        }
+
         for (Car c : cars) {
             if(c.id.equals(id)){
 
@@ -31,7 +32,7 @@ public class Tester {
 
 
 
-        //practice();
+        /*practice();
         SimpleDateFormat sdf = new SimpleDateFormat();
         try {
             Date d = sdf.parse("08:58");
@@ -39,10 +40,10 @@ public class Tester {
         } catch (ParseException e) {
           e.printStackTrace();
         }
-        //
+        */
 
 
-        Calendar cal = Calendar.getInstance();
+     /*   Calendar cal = Calendar.getInstance();
         cal.set(Calendar.HOUR_OF_DAY, 8);
         cal.set(Calendar.MINUTE, 30);
         System.out.println(cal.getTime());
@@ -56,4 +57,5 @@ public class Tester {
         long dis = now.getTime() - c1.enter.getTime();
         System.out.println(dis);
     }
-}
+    }
+}*/

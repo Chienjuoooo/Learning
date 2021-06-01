@@ -6,9 +6,10 @@ public class Box3 extends Box{
         int width = 10;
         int height = 10;
     }
+
     @Override
     public String getName() {
-        return "BOX 3";
+        return "Box3";
     }
 
     @Override

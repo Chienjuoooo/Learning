@@ -21,4 +21,5 @@ public class Car {
         now.set(Calendar.MINUTE, Integer.parseInt(tokens[1]));
         enter = now.getTime();
     }
+
 }
